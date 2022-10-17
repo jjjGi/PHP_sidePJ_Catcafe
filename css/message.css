@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+/* 쪽지 보내기(message_form.php) */
+#main_img_bar { background-image: url('../img/board_cat.png'); background-repeat:no-repeat; background-position: center; background-size:cover; }
+#message_box { position: relative; width: 1300px; margin: 0 auto; font-family: 'Noto Sans HK', sans-serif; }
+#message_box h3 { margin-top: 30px;	padding: 10px; }
+#write_msg { padding: 0 20px; }
+#write_msg span { display: inline-block; }
+#write_msg .col1 { width: 150px; }
+#write_msg li:first-child { padding: 12px; padding-bottom: 0px; }
+#write_msg li:nth-child(n+2) {	padding: 12px; border-bottom: solid 1px #dddddd; }
+#write_msg li .col2 input { font-size: 25px; border: 1px solid #ECC026; outline: 0; padding:7px;  letter-spacing: -1.5px; color: #838383; }
+#write_msg li .col2 input::placeholder { color:#dddddd; }
+#write_msg input { width: 500px; height: 25px; }
+#write_msg textarea { width: 500px;	height: 150px; }
+#write_msg #text_area {	position: relative;	height: 158px; }
+#write_msg #text_area .col2 { position: absolute;}
+#write_msg #text_area .col2 textarea { font-family: 'Noto Sans HK', sans-serif; outline: 0; border: 1px solid #ECC026; padding:7px; width: 700px; color: #838383; font-size: 17px; }
+#write_msg #text_area .col2 textarea::placeholder { color: #dddddd; }
+#write_msg button {	margin: 15px 0 30px 580px;	padding: 5px 23px; cursor: pointer; }
+#message_box .left-content { float: left; width: 20%; }
+#message_box .left-content #write_title { font-family: 'Black Han Sans', sans-serif; color: #ECC026; font-size: 47px; font-weight: normal; line-height: 47px; }
+#message_box .right-content { float: left; width: 79%; }
+
+/* 수신/송신 쪽지함(message_form.php) */
+#message li { padding: 10px; border-bottom: solid 1px #dddddd; }
+#message li:nth-child(1) { font-weight: bold; }
+#message span {	display: inline-block; text-align: center; }
+#message .title { font-weight: bold; }
+#message .col1 { width: 80px; }
+#message .col2 { width: 410px; text-align: left; }
+#message .col3 { width: 120px; }
+#message .col4 { width: 150px; }
+#page_num {	text-align: center;	margin: 30px 0 }
+#page_num li { display: inline; }
+#message_box .top_buttons  { text-align: right; margin: 20px 0 20px 0; }
+#message_box .top_buttons li { display: inline; margin-right: 20px; }
+#message_box .top_buttons a:link { text-decoration: underline; color: green; }
+#message_box .top_buttons a:visited { text-decoration: underline; color: green; }
+#message_box .buttons { text-align: right; margin: 20px 0 40px 0; }
+#message_box .buttons button:active { transform: scale(0.90); }
+#message_box .buttons button { background-image: url('../img/catpawButton.png'); background-repeat:no-repeat; background-position: center; background-size:cover; border: 0px; outline: 0; width: 100px; height: 100px;}
+/* #message_box .buttons button { padding: 5px 10px; cursor: pointer; color: #ECC026; border: 1px solid #ECC026; border-radius: 5px; outline: 0; background-color: white; width: 100px; height: 35px; } */
+/* 쪽지함 보기(view_msg.php) */
+#message_box { margin: 0 auto; }
+#message_box .title { margin-top: 30px; padding: 10px; border-bottom: solid 2px #516e7f; font-size: 20px; }
+#view_content li:nth-child(1) {	padding: 15px; border-bottom: solid 1px #aaaaaa; }
+#view_content .col2 { float: right; }
+#view_content li:nth-child(2) {	padding: 15px 15px 80px 15px; border-bottom: solid 1px #cccccc; }
+#view_content li:nth-child(3) button { padding: 5px 20px; margin: 15px 0 40px 720px; cursor: pointer; }

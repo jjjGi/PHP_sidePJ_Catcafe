@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+/* 메인 콘텐트 */
+#main_img_bar { background-image: url('../img/main_cat.png'); background-repeat:no-repeat; background-position: center; background-size:cover; }
+#main_content { position: relative; width: 1000px; height: 240px; margin: 0 auto; font-family: 'Noto Sans HK', sans-serif; }
+#right-content { float: left; margin-top: 30px; }
+#left-content { float: left; background-color: #fafafa; padding: 30px; }
+#left-content h4 { width: 550px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#left-content ul { margin-top: 20px; }
+#left-content li { margin-top: 14px; margin-left: 10px; }
+#left-content span { display: inline-block; }
+#left-content span:nth-child(1) { width: 340px; }
+#left-content span:nth-child(2) { width: 100px; text-align: center; }
+#left-content span:nth-child(3) { width: 100px; }
+
+#point_rank h4 { width: 300px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#point_rank ul { margin-top: 20px; }
+#point_rank li { margin-top: 8px; margin-left: 15px; }
+#point_rank span { display: inline-block; }
+#point_rank span:nth-child(1) { width: 50px; }
+#point_rank span:nth-child(2) { width: 100px; }
+#point_rank span:nth-child(3) { width: 100px; }
+#point_rank span:nth-child(4) { width: 100px; }
+
+#game_rank { margin-top: 30px; }
+#game_rank h4 { width: 300px; font-size: 16px; padding-bottom: 5px; border-bottom: solid 1px #dddddd; }
+#game_rank ul { margin-top: 20px; }
+#game_rank li { margin-top: 8px; margin-left: 15px; }
+#game_rank span { display: inline-block; }
+#game_rank span:nth-child(1) { width: 50px; }
+#game_rank span:nth-child(2) { width: 100px; }
+#game_rank span:nth-child(3) { width: 100px; }
+#game_rank span:nth-child(4) { width: 100px; }

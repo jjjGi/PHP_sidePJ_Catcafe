@@ -1,0 +1,11 @@
+/* 하단 푸터 */
+/* footer { height: 100px; background-color: #2c2a29; } */
+footer { position: absolute; bottom: 0; height: 100px; width: 100%; background-color: #7D7D7D; border-top: 1px solid black; }
+#footer_content { position: relative; width: 1000px; margin: 0 auto; color: #dddddd; }
+#footer_logo { position: absolute; top: 30px; left: 50px; font-size: 16px; }
+#footer_logo span { color: yellow; }
+#download { position: absolute; top: 20px; left: 400px; }
+#download li { float: left; margin-left: 10px; }
+#author { position: absolute; top: 40px; left: 50px; margin-top: 10px;}
+#author li { float: left; }
+#author li:last-child { margin-left: 10px;}

@@ -1,0 +1,5 @@
+.box_wrapper { display: flex; height: 70vh; justify-content: center; align-items: center; }
+#box { background: url('../img/cat1.png'); width: 100px; height: 100px; background-repeat:no-repeat; background-position: center; background-size:cover; }
+#box:active { transform: scale(0.90); }
+body{ background-color:cadetblue;}
+#gameheader{background-color:salmon;text-align:center;}

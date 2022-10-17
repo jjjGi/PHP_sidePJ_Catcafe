@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+
+* {
+    box-sizing: border-box;
+    }
+    @media only screen and (min-width:0px) { /* 창의 최소 너비 0px부터 */
+        .left,.right { /* left 또는 right라는 이름의 클래스를 사용하는 영역의 너비는 창 너비의 10%이다. */
+        width:10%;
+        }
+        .center { /* center라는 이름의 클래스를 사용하는 영역의 너비는 창 너비의 80%이다. */
+        width:80%;
+        }
+    }
+    @media only screen and (min-width:500px) { /* 창의 최소 너비 500px 부터 */
+     .left,.right { /* left 또는 right라는 이름의 클래스를 사용하는 영역의 너비는 창 너비의 15%이다. */
+        width:15%;
+        }
+        .center { /* center라는 이름의 클래스를 사용하는 영역의 너비는 창 너비의 70%이다. */
+        width:70%;
+        }
+    }
+    @media only screen and (min-width:1000px) { /* 창의 최소 너비 1000px 부터 */
+     .left,.right { /* left 또는 right라는 이름의 클래스를 사용하는 영역의 너비는 창 너비의 20%이다. */
+        width:20%;
+        }
+        .center { /* center라는 이름의 클래스를 사용하는 영역의 너비는 창 너비의 60%이다. */
+        width:60%;
+        }
+    }
+    
+    body{
+      margin: 0;
+      padding: 0;
+      background: #FAFAFA;
+    }
+
+    /* h2태그에 background라는 이름의 클래스를 사용할 경우 적용될 스타일 속성 */
+    h2.background { 
+    color:white; /* 기본색상 : 흰색 */
+    background: black; /* 배경 : 검정색  */
+    border:1px solid black; /* 테두리 : 1px크기의 검정색 실선을 지닌 테두리. */
+    border-radius:5px 5px 0px 0px; /* 테두리-반경 : 좌측 및 우측 상단 5px크기의 반경을 지님. 
+    우측 및 좌측 하단은 0px크기의 반경을 지님. */
+    text-align:center; /* 텍스트 정렬 : 가운데  */
+    margin-bottom:0px; /* 해당 요소 바로 하단에 있는 다른 요소 상단과의 여백 : 0px */
+    text-shadow:1px 1px 1px blue; /* 텍스트 그림자 : 텍스트 좌측 상단 기준점으로부터 우측으로 1px만큼, 
+    하단으로 1px만큼 떨어진 거리에 1px만큼의 흐림도를 가진 파랑색 그림자를 그려줌. */
+    }
+    
+    /* textarea태그에 적용될 스타일 속성 */
+    textarea {
+    width:100%; /* 너비 : 100% */
+      padding: 10px; /* 테두리와 내용물 사이의 여백 : 10px */
+      font-size: 20px; /* 폰트 크기 : 20px */
+      height:200px; /* 높이 : 200px */
+      resize: none; /* 사이즈 변경 : 불가능  */
+    }
+    
+    /* div태그에 chatcontent라는 이름의 클래스를 사용할 경우 적용될 스타일 속성 */
+    div.chatcontent {
+      padding: 10px; /* 테두리와 내용물 사이의 여백 : 10px */
+      font-size: 20px; /* 폰트 크기 : 20px */
+      height:200px; /* 높이 : 200px */
+
+      border: 1px solid;
+      line-height: 1.5em;
+      overflow-y: auto;
+      padding: 10px;
+      font-size: 20px;
+      height: 500px;
+      float: left;
+      width: 40%;
+      background: #FFFFFF;
+      border: 1px solid #ECC026;
+    }
+    
+    /* div태그에 input라는 이름의 클래스를 사용할 경우 적용될 스타일 속성 */
+    div.input {
+      padding: 10px; /* 테두리와 내용물 사이의 여백 : 10px */
+      font-size: 20px; /* 폰트 크기 : 20px */
+      border:1px solid #ECC026; /* 테두리 : 1px크기의 실선을 지닌 테두리  */
+
+      height: 500px;
+      float: left;
+      font-size: 20px;
+      width: 60%;
+      background: #ECC026;
+    }
+    
+    /* left 또는 right 또는 center라는 이름의 클래스를 사용할 경우 적용될 스타일 속성. */
+    .left, .right {
+        float:left; /* 유동 : 왼쪽  */
+        border:1px solid; /* 테두리 : 1px크기의 실선을 지닌 테두리  */
+        opacity:0; /* 불투명도 : 0 */
+    }
+    
+    .left{
+        background: white;
+        padding: 20px;
+        height: 1500px;
+        opacity: 1;
+        border: 0px;
+    }
+
+    .left p{
+        font-family: 'Black Han Sans', sans-serif;
+        color: #ECC026; 
+        font-weight: normal;
+        font-size: 42px;    
+        margin: 0 auto;
+    }
+    
+    .center{
+      margin: 100px;
+      float:left; /* 유동 : 왼쪽  */
+    }
+    
+    /* images라는 이름의 클래스를 사용할 경우 적용될 스타일 속성. */
+    .images {
+      display: block; /* 내용을 없는 것 취급하게 만들어줌. */
+      position: relative; /*  위치: 절대적  */
+      min-width: 20px;  /* 최소 너비 : 20px */
+      z-index: 1; /* z축으로 1만큼 앞에 내용물을 표시 */
+      float: left;
+    }
+    
+  
+    
+    .input input{
+      padding: 10px;
+      background: #FFFFFF;
+      border-radius: 15px;
+      width: 300px;
+      height: 35px;
+      border: 1px solid white;
+      float: right;
+      margin-right: 50px;
+    }
+
+    .input span{
+      color: white;
+      margin-right:20px;
+      margin-top:20px;
+    }
+
+#newchat:hover{
+  background:white;
+  cursor: pointer;
+}

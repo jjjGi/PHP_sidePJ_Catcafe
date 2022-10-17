@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+/* 마진 패딩 초기화 */
+* { padding: 0; margin: 0; }
+/* html, body { width: 100%; height: 100%; } */
+/* 페이지 기본 글꼴과 크기 설정 */
+body { font-size: 14px; font-family: 'Noto Sans HK', sans-serif; display: flex; min-height: 100vh; flex-direction: column; }
+/* section{ height: auto; min-height: 100%; padding-bottom: 100px; }
+footer { position: relative; transform: translateY(-100%); } */
+section { flex: 1; }
+img { border: 0;}
+ul { list-style-type: none; }
+/* <a> 태그 기본 설정 */
+a { display: inline-block; text-decoration: none; }
+a:link { text-decoration:none; color: #222222; }
+a:hover { text-decoration:none; color: #222222; }
+a:visited { text-decoration:none; color: #222222; }
+a:active { text-decoration:none; color: #222222; }
+/* 상단 헤더 */
+/* #top { position: relative; width: 1000px; height: 80px; margin: 0 auto; } */
+#top { position: relative; width: 90%; height: 80px; margin-left: 100px; }
+#top h3 { position: absolute; top: 15px; left: 40px; font-size: 16px; }
+#top h3 a p {font-family: 'Black Han Sans', sans-serif; font-style: normal; font-weight: normal; font-size: 27px; line-height: 25px; color: #ECC026;}
+/* #top #top_menu { float: right; margin: 30px 60px 0 0;} */
+#top #top_menu { float: right; margin: 25px 0px 0 0; font-style: normal; font-weight: bold; font-size: 17px; font-family: 'Noto Sans HK', sans-serif;}
+#top #top_menu li { display: inline; }
+/* #menu_bar { height: 48px; background-color: #443e58; font-size: 16px; } */
+#menu_bar { position: absolute; color: black; height: 50px; font-size: 16px; margin-left: 50px; }
+#menu_bar ul { /*width: 1000px;*/ margin: 0 auto; padding-left: 50px; }
+#menu_bar li { display: inline; margin-left: 35px; }
+#menu_bar li:first-child{color: #ECC026; }
+#menu_bar li:last-child a{ padding-top: 30px; width: 71px; height: 77px; background-repeat: no-repeat; background-size: contain; background-image: url('../img/catpawButton.png');}
+/* #menu_bar a:link { color: black; } */
+#menu_bar a:hover { color:darkgreen; }
+#menu_bar a:visited { color: black; }
+#menu_bar a:active { color: white; }
+/* 메인 이미지 */
+#main_img_bar { height: 230px; text-align: center; background-color: #c4c4c4; margin-bottom: 50px; }
+#main_img_bar img { margin-top: 30px; }
+/* 하단 푸터 */
+/* footer { height: 100px; background-color: #2c2a29; } */
+footer { height: 100px; width: 100%; background-color: #7D7D7D; border-top: 1px solid black; }
+#footer_content { position: relative; width: 1000px; margin: 0 auto; color: #dddddd; }
+#footer_logo { position: absolute; top: 30px; left: 50px; font-size: 16px; }
+#footer_logo span { color: yellow; }
+/*다운로드 위치 조정*/
+#download { position: absolute; top: 30px; left: 400px; }
+#download li { float: left; margin-left: 10px; }
+#author { position: absolute; top: 40px; left: 50px; margin-top: 10px;}
+#author li { float: left; }
+#author li:last-child { margin-left: 10px;}
+/*푸터 회원탈퇴 추가*/
+#leavecafe { position: absolute; top: 50px; left: 400px; }
+#leavecafe li { float: left; margin-left: 10px; }
